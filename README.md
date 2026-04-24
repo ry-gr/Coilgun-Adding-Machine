@@ -4,10 +4,10 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
   
 [Marble adding machine by Matthias Wandel](https://youtu.be/GcDshWmhF4A?si=AagFJ8iIVUzHyiSO)  
 [Further information from his blog](https://woodgears.ca/marbleadd/more.html)  
+ 
+ 
 
-
-
-
+ 
 ## Part List:
 - 40TPS12A Thyristor  
 - 2n2222a Transistor  
