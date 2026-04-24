@@ -1,8 +1,8 @@
 # Coilgun Adding Machine
-This is an adding machine, created with coilguns, capacitor banks, and disposable charging camera circuitry. It is completely over the top, but why not have fun with it?
-This project was inspired by Matthias Wandel's adding machine, that was an incredible inspiration and resource. The gates are directly inspired by his own, just slightly scaled down.   
-[Original Video](https://youtu.be/GcDshWmhF4A?si=AagFJ8iIVUzHyiSO)  
-[Blog post detailing its creation](https://woodgears.ca/marbleadd/more.html)  
+This is an adding machine, which uses coilguns to carry digits.  
+This project was inspired by Matthias Wandel's adding machine, whose posts were an incredible inspiration and resource.  
+[Marble adding machine by Matthias Wandel](https://youtu.be/GcDshWmhF4A?si=AagFJ8iIVUzHyiSO)  
+[Further information from his blog](https://woodgears.ca/marbleadd/more.html)  
 
 
 
