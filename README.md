@@ -10,12 +10,12 @@ This project was inspired by Matthias Wandel's adding machine, that was an incre
 ## Part List:
 - 40TPS12A Thyristor  
 - 2n2222a Transistor  
--2x 450V 68uF Capacitors  
--Usb-C Pinout Board  
--LM2596 Buck Converter (5A)  
--Disposable Camera Flash Circuitry  
--24AWG Magnet Wire  
--MUR1560G Diode  
+- 2x 450V 68uF Capacitors  
+- Usb-C Pinout Board  
+- LM2596 Buck Converter (5A)  
+- Disposable Camera Flash Circuitry  
+- 24AWG Magnet Wire  
+- MUR1560G Diode  
 
 
 
