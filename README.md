@@ -32,11 +32,7 @@ For example: We put a marble into the empty machine on the furthest gate to the 
 ## Data Collection and optimization
 Coilguns attract ferromagnetic objects to their core while they have current. This is great although if we get our projectile to get attracted to the core, and have velocity but then be pulled backwards by the coilgun. So we need to precisely time when we shut voltage off, so we dont pull our projectile backwards. In lieu of a IR system, to measure the interruption, I decided to precisely time the charging of capacitor, so they will simply run out of voltage when the projectile is at its core and no longer should have an attraction. By measuring the time the projectile charged for, the voltage of the capacitor, and the height the projectile went I came up with this graph. 
 
-
-![Alt text](chart.svg)
-
-I noticed by overclocking the flash circuitry to 4.52 volts, via the buck converter, the capacitor charges much faster. I figured out for me that charging the capacitor for about 18 seconds gave the ideal height of the projectile. 
-
+## Raw Data
 | Voltage (V) | Time (sec) | Height (in) |
 |------------|-----------|------------|
 | 363        | 19.63     | 12.5       |
@@ -45,3 +41,10 @@ I noticed by overclocking the flash circuitry to 4.52 volts, via the buck conver
 | 421        | 20.07     | 10         |
 | 375        | 18.38     | 12.5       |
 | 408        | 18.71     | 12         |
+
+## Graph
+![Alt text](chart.svg)
+
+I noticed by overclocking the flash circuitry to 4.52 volts, via the buck converter, the capacitor charges much faster. I figured out for me that charging the capacitor for about 18 seconds gave the ideal height of the projectile. 
+
+
