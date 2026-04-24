@@ -30,7 +30,7 @@ As explained in Mattias's Video, the machine originally holds 0. Each gate repre
 For example: We put a marble into the empty machine on the furthest gate to the right. The rocker tilts and the marble is stuck. The internal value of the machine is now 2^0 = 1. We add a marble to the second gate, and it gets stuck there. By adding this we have added 2^1 = 2, to the internal value of the machine. So in total we have 2+1=3 in value. Now adding another marble to the furthest gate to the right, and whcih tilts the rocker discarding the stuck marble, and shooting the marble to the second gate, which does the same and shoots the marble to the third gate. Now our internal value is 2^2=4. We added 2+1+1, and the machine shows the final value.
 
 ## Data Collection and optimization
-Coilguns attract ferromagnetic objects to their core while they have current. This is great although if we get our projectile to get attracted to the core, and have velocity but then be pulled backwards by the coilgun. So we need to precisely time when we shut voltage off, so we dont pull our projectile backwards. In lieu of a IR system, to measure the interruption, I decided to precisely time the charging of capacitor, so they will simply run out of voltage when the projectile is at its core and no longer should have an attraction. By measuring the time the projectile charged for, the voltage of the capacitor, and the height the projectile went I came up with this graph. 
+Coilguns attract ferromagnetic objects to their core while they have current. This is great although if we get our projectile to get attracted to the core, and have velocity but then be pulled backwards by the coilgun. So we need to precisely time when we shut voltage off, so we dont pull our projectile backwards. In lieu of a IR system, to measure the interruption, I decided to precisely time the charging of capacitor, so they will simply run out of voltage when the projectile is at its core and no longer should have an attraction. By measuring the time the projectile charged for, the voltage of the capacitor, and the height the projectile went I came up with this graph. I was charging the capacitors externally with the flash circuit, and manually timing everything, so there might be imprecision, but it gives a rough estimate of where we need to be.
 
 ## Raw Data
 | Voltage (V) | Time (sec) | Height (in) |
@@ -45,6 +45,6 @@ Coilguns attract ferromagnetic objects to their core while they have current. Th
 ## Graph
 ![Alt text](chart.svg)
 
-I noticed by overclocking the flash circuitry to 4.52 volts, via the buck converter, the capacitor charges much faster. I figured out for me that charging the capacitor for about 18 seconds gave the ideal height of the projectile. 
-
+With this data we can conclude somewhere around 18 seconds of charging gives the ideal height. Voltages of 360-375 seemed perfect. 
+Now I will add a relay to my circuit so the arduino can precisely control charging and I can run precise experiments with the timing.
 
