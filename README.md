@@ -20,7 +20,7 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
 - 2x 5v DC Relays
 
 > [!CAUTION]
-> The Voltages needed to accelerate the projectile are dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
+> The voltages needed to accelerate the projectile extremely dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
 
 
 ## Operating Principle of the Electronics
