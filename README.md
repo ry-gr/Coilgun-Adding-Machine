@@ -3,14 +3,14 @@ It is an adding machine, created with coilguns, capacitor banks, and disposable 
 
 
 Part List:
-40TPS12A Thyristor
-2n2222a Transistor
-2x 450V 68uF Capacitors
-Usb-C Pinout Board
-LM2596 Buck Converter (5A)
-Disposable Camera Flash Circuitry
-24AWG Magnet Wire
-MUR1560G Diode
+-40TPS12A Thyristor
+-2n2222a Transistor
+-2x 450V 68uF Capacitors
+-Usb-C Pinout Board
+-LM2596 Buck Converter (5A)
+-Disposable Camera Flash Circuitry
+-24AWG Magnet Wire
+-MUR1560G Diode
 
 
 Operating Principle
