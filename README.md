@@ -17,6 +17,8 @@ This project was inspired by Matthias Wandel's adding machine, that was an incre
 - 24AWG Magnet Wire  
 - MUR1560G Diode  
 
+> [!CAUTION]
+> The Voltages needed to accelerate the projectile are dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
 
 
 ## Operating Principle of the Electronics
@@ -27,5 +29,3 @@ As explained in Mattias's Video, the machine originally holds 0. Each gate repre
 For example: We put a marble into the empty machine on the furthest gate to the right. The rocker tilts and the marble is stuck. The internal value of the machine is now 2^0 = 1. We add a marble to the second gate, and it gets stuck there. By adding this we have added 2^1 = 2, to the internal value of the machine. So in total we have 2+1=3 in value. Now adding another marble to the furthest gate to the right, and whcih tilts the rocker discarding the stuck marble, and shooting the marble to the second gate, which does the same and shoots the marble to the third gate. Now our internal value is 2^2=4. We added 2+1+1, and the machine shows the final value.
 
 
-> [!CAUTION]
-> The Voltages needed to accelerate the projectile are dangerous and can potentially kill you. Not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
