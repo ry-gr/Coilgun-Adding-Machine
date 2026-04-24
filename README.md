@@ -31,7 +31,7 @@ For example: We put a marble into the empty machine on the furthest gate to the 
 
 ## Data Collection and optimization
 Coilguns attract ferromagnetic objects to their core while they have current. This is great although if we get our projectile to get attracted to the core, and have velocity but then be pulled backwards by the coilgun. So we need to precisely time when we shut voltage off, so we dont pull our projectile backwards. In lieu of a IR system, to measure the interruption, I decided to precisely time the charging of capacitor, so they will simply run out of voltage when the projectile is at its core and no longer should have an attraction. By measuring the time the projectile charged for, the voltage of the capacitor, and the height the projectile went I came up with this graph. I was charging the capacitors externally with the flash circuit, and manually timing everything, so there might be imprecision, but it gives a rough estimate of where we need to be.
-* A quick note about why I decided to use time instead of voltages to trigger the discharge. I created several iterations of voltage dividers that connected the capacitor to an arduino analog pin. I was able to sucessfully read capacitor voltages, but doing this made a slow bleed from the resistors, which interfered with the charging circuit. *
+_A quick note about why I decided to use time instead of voltages to trigger the discharge. I created several iterations of voltage dividers that connected the capacitor to an arduino analog pin. I was able to sucessfully read capacitor voltages, but doing this made a slow bleed from the resistors, which interfered with the charging circuit._
 
 ## Raw Data
 | Voltage (V) | Time (sec) | Height (in) |
