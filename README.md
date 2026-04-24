@@ -16,7 +16,8 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
 - Disposable Camera Flash Circuitry [^1]  
 - 24AWG Magnet Wire  
 - MUR1560G Diode
-- Arduino Uno  
+- Arduino Uno
+- 2x 5v DC Relays
 
 > [!CAUTION]
 > The Voltages needed to accelerate the projectile are dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
