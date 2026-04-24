@@ -2,8 +2,8 @@
 This is an adding machine, which uses coilguns to carry digits.  
 This project was inspired by Matthias Wandel's adding machine, whose posts were an incredible inspiration and resource.  
   
-[Marble adding machine by Matthias Wandel](https://youtu.be/GcDshWmhF4A?si=AagFJ8iIVUzHyiSO)  
-[Further information from his blog](https://woodgears.ca/marbleadd/more.html)  
+- [Marble adding machine by Matthias Wandel](https://youtu.be/GcDshWmhF4A?si=AagFJ8iIVUzHyiSO)  
+- [Further information from his blog](https://woodgears.ca/marbleadd/more.html)  
  
  
 
