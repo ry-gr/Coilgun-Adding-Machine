@@ -11,9 +11,9 @@ This project was inspired by Matthias Wandel's adding machine, that was an incre
 - 40TPS12A Thyristor  
 - 2n2222a Transistor  
 - 2x 450V 68uF Capacitors  
-- Usb-C Pinout Board  
+- USB-C Pinout Board  
 - LM2596 Buck Converter (5A)  
-- Disposable Camera Flash Circuitry  
+- Disposable Camera Flash Circuitry [^1]  
 - 24AWG Magnet Wire  
 - MUR1560G Diode
 - Arduino Uno  
@@ -50,3 +50,4 @@ Coilguns attract ferromagnetic objects to their core while they have current. Th
 With this data we can conclude somewhere around 18 seconds of charging gives the ideal height. Voltages of 360-375 seemed perfect. 
 Now I will add a relay to my circuit so the arduino can precisely control charging and I can run precise experiments with the timing.
 
+[^1]: How Do you get disposable camera circuitry for free? Used disposable cameras have a lot of handy parts, like a high voltage capacitor, and circuitry that steps up 1.5v to 363v. That circuitry is very helpful and I use it in this build. To get them for free, I found places that sell and process film from disposable cameras around me, and went in and asked for them. They were more than happy to give them out to me, and i've tried this at a few spots, where I often got 30 used cameras per visit. Primarily I use the flash from a FujiFilm QuickSnaps, as they are reliable and plentiful. 
