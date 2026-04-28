@@ -7,16 +7,16 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
  
  
 ## TL;DR
-The machine is an analog computer that uses marbles to represent bits, and coilguns that carries digits when a bit overflows.
-
-> [!CAUTION]
-> The voltages needed to accelerate the projectile extremely dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
+The machine is an analog computer that uses marbles to represent bits, and coilguns that carries digits when a bit overflows.  
 
 
 # Build Instructions  
 
 
  
+> [!CAUTION]
+> The voltages needed to accelerate the projectile extremely dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
+
 ## Part List:
 - 40TPS12A Thyristor  
 - 2n2222a Transistor  
