@@ -8,8 +8,9 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
  
 ## TL;DR
 The machine is an analog computer that uses marbles to represent bits, and coilguns that shoots the marbles to other columns to carry digits when a bit overflows.  
+  
 
-
+   
 # Build Instructions  
 
 
