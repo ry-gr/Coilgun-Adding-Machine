@@ -6,6 +6,15 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
 - [Further information from his blog](https://woodgears.ca/marbleadd/more.html)  
  
  
+## TL;DR
+The machine is an analog computer that uses marbles to represent bits, and coilguns that carries digits when a bit overflows.
+
+> [!CAUTION]
+> The voltages needed to accelerate the projectile extremely dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
+
+
+# Build Instructions  
+
 
  
 ## Part List:
@@ -18,11 +27,9 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
 - 24AWG Magnet Wire  
 - MUR1560G Diode
 - Arduino Uno
-- 2x 5v DC Relays
+- 2x 5v DC Relays  
 
-> [!CAUTION]
-> The voltages needed to accelerate the projectile extremely dangerous and can potentially kill you. I am not saying you shouldn't experiment, but please be very cautious. Have a good multimeter, and know how to use it.
-
+  
 ## How to prepare the disposable camera
 You will need to completly strip the disposable camera of its housing, I did this by jamming a flat head screwdriver in the side, cutting all the adhesive holding it together and then popping the clips. The board is basically the only electronic component in the whole thing, so it should be easy to see. You should see a cylindrical capacitor connected to the board. Measure the voltage, and if it is charged (carefully) discharge it with a screwdriver that has a non metallic handle. Then pop out the entire module gently. Mark the board on the connector that the capacitors stripe is. That is the negative output terminal. Now desolder the capacitor, and set it to the side. I did not use the capacitor as it didnt have enough voltage for my project, but it is still a useful component. The next is figuring out how make your board stay triggered. Some have a button that you can pry off, then scratch the pcb coating off to bridge the pins, others you can solder the moveable component in place to permanently set it. 
 
