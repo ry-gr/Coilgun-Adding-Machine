@@ -14,9 +14,12 @@ The machine is an analog computer that uses marbles to represent bits, and coilg
 
 ## FAQ
 How does the machine store value?
-This gate holds values. When the gate is tilted to the left, it has no value. 
+When the gate is tilted to the left, it has no value. 
+![noVal](images/IMG_9267.jpg)
 
 When the gate is tilted to the right, it is storing a Yes. 
+![holdingVal](images/IMG_9268.jpg)
+
 # Build Instructions  
 
 
