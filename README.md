@@ -18,7 +18,7 @@ When the gate is tilted to the left, it has no value. This is the position that 
    
 ![noVal](images/IMG_9267.jpg)
 
-When the gate is tilted to the right, it is storing a Yes. To determine the value in base 10, you must count how far you are from the far right. The count starts at 0. If this gate was the one furthest to the right, it would be gate 0. 2^0 is 1, so when the gate is tilted to the right, its value is 1. 
+When the gate is tilted to the right, it is storing a Yes. To determine the value in base 10, you must count how far you are from the far right. The count starts at 0. If this gate was the one furthest to the right, it would be gate 0. 2<sup>0</sup> is 1, so when the gate is tilted to the right, its value is 1. 
     
     
 ![holdingVal](images/IMG_9268.jpg)
