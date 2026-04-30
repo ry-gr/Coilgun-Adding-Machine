@@ -10,7 +10,13 @@ This project was inspired by Matthias Wandel's adding machine, whose posts were 
 The machine is an analog computer that uses marbles to represent bits, and coilguns that shoots the marbles to other columns to carry digits when a bit overflows.  
   
   
-   
+
+
+## FAQ
+How does the machine store value?
+This gate holds values. When the gate is tilted to the left, it has no value. 
+
+When the gate is tilted to the right, it is storing a Yes. 
 # Build Instructions  
 
 
