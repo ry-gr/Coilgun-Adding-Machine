@@ -16,6 +16,8 @@ An issue I am repeatedly running into is having to constantly reposition parts n
 
 https://github.com/user-attachments/assets/430a67ab-8d33-4d41-9ca6-4a4940692cc2
 
+## Schematics
+[githubshcematic.pdf](https://github.com/user-attachments/files/27320456/githubshcematic.pdf)
 
 ## FAQ
 How does the machine store value?
